@@ -1,23 +1,9 @@
 ---
-layout: default
+layout: welcome
+
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+ <div class="text-center">
+  <img class="circular" src="https://pp.vk.me/c633116/v633116478/a8e5/E_WFGlKdBKg.jpg" >
+  <p>contact me <a href="mailto:user@example.com">user (at) example.com</a></p>
 </div>
